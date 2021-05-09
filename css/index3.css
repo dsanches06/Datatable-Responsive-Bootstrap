@@ -1,0 +1,284 @@
+:root {
+    --color-brand: #EC0000;
+    --color-background-main: #FFFFFF;
+    --color-background-alt: #E9EEFF;
+    --color-background-alt-section: #F1F7F9;
+    --color-background-page: #FAFAFA;
+    --color-background-transparent: rgba(250,250,250,0.95);
+    --color-background-transparent-dark: rgba(0,0,0,0.3);
+    --color-background-transparent-light: rgba(255,255,255,0.75);
+    --color-header-text: #181818;
+    --color-header-background: #FFFFFF;
+    --color-header-interactive: #FFFFFF;
+    --color-header-interactive-hover: #FCE4E4;
+    --color-header-interactive-active: #F9B1B1;
+    --color-menu-section: #181818;
+    --color-menu-section-hover-border: #C3DEE7;
+    --color-menu-section-hover-bg: #F8FBFC;
+    --color-menu-section-active-border: #C3DEE7;
+    --color-menu-section-active-bg: #F1F7F9;
+    --color-menu-external-separator: #E4E4E4;
+    --color-menu-external-link-hover-bg: #FCE4E4;
+    --color-menu-external-link-active-bg: #F9B1B1;
+    --color-menu-option: #181818;
+    --color-menu-option-hover: #137E84;
+    --color-menu-option-active: #08666C;
+    --color-interactive-main: #137E84;
+    --color-interactive-main-hover: #2F9BA2;
+    --color-interactive-main-active: #08666C;
+    --color-interactive-alt: #137E84;
+    --color-interactive-alt-hover: #2F9BA2;
+    --color-interactive-alt-hover-bg: #E6F6F7;
+    --color-interactive-alt-active: #08666C;
+    --color-interactive-alt-active-bg: #B9E7EA;
+    --color-interactive-disabled-text: #919191;
+    --color-interactive-disabled-background: #E4E4E4;
+    --color-interactive-delete: #CC0000;
+    --color-interactive-delete-hover: #FCE4E4;
+    --color-interactive-delete-active: #F9B1B1;
+    --color-text-main: #181818;
+    --color-text-alt: #656565;
+    --color-success: #10843D;
+    --color-success-alt: #63BA68;
+    --color-success-disabled: #538065;
+    --color-success-background: #EEF7EF;
+    --color-error: #CC0000;
+    --color-error-background: #FEF2F2;
+    --color-error-border: #EBAAAA;
+    --color-alert: #FF6200;
+    --color-alert-text: #CC4E00;
+    --color-info: #0032E6;
+    --color-section-border: #C3DEE7;
+    --color-table-line-bg-odd: #F4F4F4;
+    --color-table-interactive-line-bg: #FFFFFF;
+    --color-table-interactive-line-bg-odd: #F1F7F9;
+    --color-table-interactive-line-bg-hover: #BAE8EB;
+    --color-table-interactive-line-bg-active: #D1F0F2;
+    --color-table-border: #E4E4E4;
+    --color-table-interactive-border: #C3DEE7;
+    --color-input-border: #C3DEE7;
+    --color-input-border-hover: #9BC3D3;
+    --color-input-border-active: #137E84;
+    --color-input-background: #FFFFFF;
+    --color-input-background-hover: #E6F6F7;
+    --color-input-background-active: #F4F9FB;
+    --color-input-disabled-text: #656565;
+    --color-input-disabled-border: #B1B1B1;
+    --color-input-disabled-background: #FBFDFD;
+    --color-option-background-hover: #BAE8EB;
+    --color-option-background-active: #137E84;
+    --color-progress-value: #137E84;
+    --color-progress-background: #BAE8EB;
+    --color-slider-progress: #137E84;
+    --color-slider-remaining: #B7D8DA;
+    --color-slider-range: #F7F7F7;
+    --color-slider-progress-disabled: #B1B1B1;
+    --color-slider-remaining-disabled: #E4E4E4;
+    --color-slider-range-disabled: #E4E4E4;
+    --color-dynamic-payment-card-text: #FFFFFF;
+    --color-dynamic-payment-card-default: #181818;
+    --color-dynamic-payment-card-credit: linear-gradient(to right bottom, #4B4B4B, #000000);
+    --color-dynamic-payment-card-debit: linear-gradient(to right bottom, #EC0000, #990000);
+    --color-dynamic-payment-card-prepaid: linear-gradient(to right bottom, #FBFDFD, #F4F9FB);
+    --color-dynamic-payment-card-account: linear-gradient(to right bottom, #F9FCFC, #E7F2F3);
+    --color-wizard-progress-value: #137E84;
+    --color-wizard-progress-bg: #B7D8DA;
+    --color-wizard-progress-complete: #1BB3BC;
+    --color-wizard-previous-button: #656565;
+    --color-wizard-previous-button-hover: #9F9F9F;
+    --color-wizard-previous-button-active: #323232;
+    --color-wizard-next-button: #137E84;
+    --color-wizard-next-button-bg: #FFFFFF;
+    --color-wizard-next-button-hover: #2F9BA2;
+    --color-wizard-next-button-hover-bg: #E6F6F7;
+    --color-wizard-next-button-active: #08666C;
+    --color-wizard-next-button-active-bg: #B9E7EA;
+    --color-wizard-next-button-disabled: #B1B1B1;
+    --color-wizard-finish-button: #137E84;
+    --color-wizard-finish-button-hover: #2F9BA2;
+    --color-wizard-finish-button-active: #08666C;
+    --color-wizard-header-step-previous-text: #FFFFFF;
+    --color-wizard-header-step-previous-number: #10843D;
+    --color-wizard-header-step-previous-bar: #10843D;
+    --color-wizard-header-step-current-text: #137E84;
+    --color-wizard-header-step-current-number: #FFFFFF;
+    --color-wizard-header-step-current-value: #137E84;
+    --color-wizard-header-step-current-bar: #B4D5D7;
+    --color-wizard-header-step-current-ball: #137E84;
+    --color-wizard-header-step-next-text: #656565;
+    --color-wizard-header-step-next-bar: #D9D9D9;
+    --color-wizard-button-previous: #656565;
+    --color-wizard-button-previous-bg-hover: #E4E4E4;
+    --color-wizard-button-previous-bg-active: #989898;
+    --color-wizard-button-next: #137E84;
+    --color-wizard-button-next-bg-hover: #E7F2F3;
+    --color-wizard-button-next-bg-active: #A1CBCE;
+    --color-pie-chart-main: #137E84;
+    --color-pie-chart-alt: #B8D8DA;
+    --margin-xxl: 50px;
+    --margin-xl: 40px;
+    --margin-l: 30px;
+    --margin-m: 20px;
+    --margin-s: 15px;
+    --margin-xs: 10px;
+    --margin-xxs: 5px;
+    --text-xxl: 40px;
+    --text-xl: 30px;
+    --text-l: 20px;
+    --text-m: 16px;
+    --text-s: 14px;
+    --text-xs: 12px;
+    --font-regular: "Santander Text";
+    --font-headline: "Santander Headline";
+    --box-shadow-header: 0 1px 2px rgba(0,0,0,0.15);
+    --box-shadow-menu: 1px 1px 2px rgba(0,0,0,0.15);
+    --box-shadow-section: 0 0 4px rgba(0,0,0,0.25);
+    --box-shadow-sticky: 0 4px 2px -2px rgba(40, 90, 140, 0.2);
+    --box-shadow-wizard-progress: 0 6px 2px -4px rgba(20, 50, 80, 0.15);
+    --box-shadow-context-switcher: 0 4px 4px rgba(0,0,0,0.25);
+    --box-shadow-input-hover: 0px 0px 2px #8CD8DD;
+    --box-shadow-button: 0px 1px 2px rgba(0,0,0,0.25), inset 0px -1px 1px rgba(0,0,0,0.10);
+    --box-shadow-button-hover: 0px 1px 2px rgba(0,0,0,0.25), inset 0px -1px 1px rgba(0,0,0,0.10);
+    --box-shadow-button-active: 0px 0px 1px rgba(0,0,0,0.25), inset 0px -1px 2px rgba(0,0,0,0.25);
+    --box-shadow-wizard-stepper: 0 2px 4px -1px rgba(0, 0, 0, 0.4);
+    --border-main: 1px solid #C3DEE7;
+}
+
+* {
+    position: relative;
+    font-family: "Santander Text","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 0;
+    color: var(--color-text-main);
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    outline: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    width: 100%;
+    height: calc(100% - 75px);
+    margin: 0;
+    white-space: nowrap;
+    background-color: var(--color-background-page);
+}
+
+.popup-container {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 201;
+}
+
+.popup {
+    position: relative;
+    width: 700px;
+    min-height: 200px;
+    max-height: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: auto auto;
+    padding: 40px 50px;
+    text-align: center;
+    overflow-y: auto;
+    box-shadow: var(--box-shadow-section);
+    z-index: 201;
+}
+
+.section-title {
+    font-family: "Santander Headline";
+    font-size: var(--text-l);
+    font-weight: 600;
+    margin: 60px 0 30px;
+}
+
+
+.data-block {
+    display: block;
+    margin: 30px 0;
+    white-space: normal;
+    width: max-content;
+    max-width: 100%;
+}
+
+.data-label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: var(--text-s);
+    color: var(--color-text-alt);
+    white-space: normal;
+}
+
+
+.data-value {
+    display: inline-block;
+    white-space: normal;
+    font-size: var(--text-m);
+    font-weight: 600;
+}
+
+.popup-close-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 36px;
+    width: 36px;
+    padding: 10px;
+    border-radius: 18px;
+    background-color: var(--color-background-main);
+    box-shadow: var(--box-shadow-button);
+    cursor: pointer;
+    transition: top 200ms,background-color 200ms,box-shadow 200ms;
+}
+
+.popup-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,.3);
+    z-index: 11;
+}
+
+@media (max-width: 750px)
+.popup {
+    top: 50px;
+    width: calc(100% - 40px);
+    min-width: 280px;
+    height: max-content;
+    max-height: calc(100% - 100px);
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+@media (max-width: 750px)
+.popup-close-icon {
+    position: fixed;
+    top: 80px;
+    right: 40px;
+}
+
+@media (max-width: 750px)
+.section-title {
+    margin: 50px 20px 30px;
+}	
+	
+	
+	
+

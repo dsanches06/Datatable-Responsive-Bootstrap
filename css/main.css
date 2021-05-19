@@ -5801,3 +5801,4 @@ sup {
   line-height: 1.38;
   color: #767676;
 }
+ .table-hover>tbody>tr:hover{background-color: #BAE8EB;}
